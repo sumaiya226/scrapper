@@ -1,4 +1,4 @@
-# Openbiz — Udyam Steps 1 & 2 (Scraper + React Frontend + Express API + Postgres)
+# Udyam (Scraper + React Frontend + Express API + Postgres)
 
 [![Docker Ready](https://img.shields.io/badge/Docker-Ready-blue)](#) [![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)](#) [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue)](#) [![Prisma](https://img.shields.io/badge/Prisma-ORM-orange)](#)
 
