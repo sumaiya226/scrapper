@@ -1,0 +1,11 @@
+{
+  "name": "openbiz-udyam-assignment",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "scraper"
+  ],
+  "scripts": {
+    "scrape": "pnpm --filter openbiz-scraper start"
+  }
+}

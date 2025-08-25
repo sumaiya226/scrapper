@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "source": "https://udyamregistration.gov.in/UdyamRegistration.aspx",
+    "version": "1.0.0",
+    "generatedAt": "2025-08-13T00:00:00Z"
+  },
+  "steps": [
+    {
+      "id": 1,
+      "title": "Step 1 \u2014 Aadhaar & OTP",
+      "fields": [
+        {
+          "id": "aadhaar_number",
+          "label": "Aadhaar Number",
+          "type": "tel",
+          "required": true,
+          "pattern": "^\\d{12}$",
+          "placeholder": "Enter 12-digit Aadhaar"
+        },
+        {
+          "id": "otp",
+          "label": "OTP",
+          "type": "tel",
+          "required": true,
+          "pattern": "^\\d{6}$",
+          "placeholder": "Enter 6-digit OTP"
+        },
+        {
+          "id": "consent",
+          "label": "I hereby declare that I consent to verification.",
+          "type": "checkbox",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Step 2 \u2014 PAN Validation",
+      "fields": [
+        {
+          "id": "pan",
+          "label": "PAN",
+          "type": "text",
+          "required": true,
+          "pattern": "^[A-Z]{5}[0-9]{4}[A-Z]{1}$",
+          "placeholder": "ABCDE1234F"
+        }
+      ]
+    }
+  ]
+}
